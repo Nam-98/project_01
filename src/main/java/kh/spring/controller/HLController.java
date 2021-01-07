@@ -5,4 +5,7 @@ import org.springframework.stereotype.Controller;
 @Controller
 public class HLController {
 
+	public void surprise() {
+		System.out.println("신기합니다");
+	}
 }
