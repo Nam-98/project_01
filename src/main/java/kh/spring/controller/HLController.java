@@ -5,5 +5,7 @@ import org.springframework.stereotype.Controller;
 @Controller
 public class HLController {
 
-	//¸®Á§ÇØÁÖ¼¼¿ä
+	public void surprise() {
+		System.out.println("ì‹ ê¸°í•©ë‹ˆë‹¤");
+	}
 }
